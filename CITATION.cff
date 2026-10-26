@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "CBC anemia classification: data audit and corrected statistical benchmark (code)"
+authors:
+  - family-names: "S"
+    given-names: "Nithya"
+    orcid: "https://orcid.org/0009-0008-9755-0549"
+  - family-names: "S"
+    given-names: "Sasikala"
+    orcid: "https://orcid.org/0000-0002-4117-3253"
+license: MIT
+version: "1.0.0"

@@ -1,0 +1,15 @@
+scenario,model,accuracy,f1_macro
+"S1 raw: duplicates kept, 14 features, imputed values kept",RandomForest,98.2,93.31
+"S1 raw: duplicates kept, 14 features, imputed values kept",XGBoost,98.71,95.15
+"S2 duplicates removed, 14 features, imputed values kept",RandomForest,98.08,92.42
+"S2 duplicates removed, 14 features, imputed values kept",XGBoost,98.63,94.54
+"S3 cleaned, 14 features, artifacts masked + in-fold median",RandomForest,97.83,92.47
+"S3 cleaned, 14 features, artifacts masked + in-fold median",XGBoost,98.37,94.65
+"S4 cleaned, 13 features (PDW kept, six dropped)",RandomForest,98.08,93.02
+"S4 cleaned, 13 features (PDW kept, six dropped)",XGBoost,98.51,95.35
+"S5 cleaned, 7 features (paper setting)",RandomForest,98.34,95.23
+"S5 cleaned, 7 features (paper setting)",XGBoost,98.44,94.91
+S6 raw + SMOTE BEFORE split (leaky),RandomForest,99.68,99.68
+S7 raw + SMOTE INSIDE training folds,RandomForest,98.58,95.32
+S6 raw + SMOTE BEFORE split (leaky),XGBoost,99.51,99.51
+S7 raw + SMOTE INSIDE training folds,XGBoost,98.53,94.37

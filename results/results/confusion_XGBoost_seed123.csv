@@ -1,0 +1,10 @@
+,Healthy,Iron deficiency anemia,Leukemia,Leukemia with thrombocytopenia,Macrocytic anemia,Normocytic hypochromic anemia,Normocytic normochromic anemia,Other microcytic anemia,Thrombocytopenia
+Healthy,321,0,0,0,0,0,0,2,0
+Iron deficiency anemia,1,178,1,0,0,2,0,2,0
+Leukemia,0,0,44,0,0,0,0,0,0
+Leukemia with thrombocytopenia,0,0,1,9,0,0,1,0,0
+Macrocytic anemia,0,0,0,0,15,1,0,0,0
+Normocytic hypochromic anemia,0,0,0,0,0,271,0,0,0
+Normocytic normochromic anemia,0,0,0,2,0,0,253,0,0
+Other microcytic anemia,0,1,1,0,0,2,0,51,1
+Thrombocytopenia,1,0,0,0,0,1,1,0,69

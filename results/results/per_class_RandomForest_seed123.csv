@@ -1,0 +1,13 @@
+,precision,recall,f1-score,support
+Healthy,0.988,0.997,0.992,323.0
+Iron deficiency anemia,0.989,0.989,0.989,184.0
+Leukemia,0.956,0.977,0.966,44.0
+Leukemia with thrombocytopenia,0.909,0.909,0.909,11.0
+Macrocytic anemia,1.0,0.75,0.857,16.0
+Normocytic hypochromic anemia,0.985,1.0,0.993,271.0
+Normocytic normochromic anemia,0.981,0.992,0.986,255.0
+Other microcytic anemia,1.0,0.893,0.943,56.0
+Thrombocytopenia,0.972,0.958,0.965,72.0
+accuracy,0.984,0.984,0.984,0.984
+macro avg,0.975,0.941,0.956,1232.0
+weighted avg,0.984,0.984,0.983,1232.0
