@@ -1,0 +1,4 @@
+model,accuracy,f1_macro
+LogisticRegression (nested-CV tuned),90.2 ± 2.1,82.5 ± 3.8
+SVM_RBF (nested-CV tuned),91.4 ± 1.7,83.9 ± 4.3
+KNN_k7 (nested-CV tuned),84.7 ± 1.7,74.1 ± 5.0

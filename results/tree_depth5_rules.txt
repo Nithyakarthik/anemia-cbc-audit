@@ -1,0 +1,52 @@
+|--- HGB <= 12.95
+|   |--- MCHC <= 31.95
+|   |   |--- MCV <= 79.95
+|   |   |   |--- MCH <= 26.15
+|   |   |   |   |--- class: Iron deficiency anemia
+|   |   |   |--- MCH >  26.15
+|   |   |   |   |--- class: Other microcytic anemia
+|   |   |--- MCV >  79.95
+|   |   |   |--- MCV <= 99.70
+|   |   |   |   |--- HGB <= 5.36
+|   |   |   |   |   |--- class: Other microcytic anemia
+|   |   |   |   |--- HGB >  5.36
+|   |   |   |   |   |--- class: Normocytic hypochromic anemia
+|   |   |   |--- MCV >  99.70
+|   |   |   |   |--- class: Macrocytic anemia
+|   |--- MCHC >  31.95
+|   |   |--- MCV <= 80.25
+|   |   |   |--- MCV <= 79.70
+|   |   |   |   |--- class: Other microcytic anemia
+|   |   |   |--- MCV >  79.70
+|   |   |   |   |--- class: Normocytic hypochromic anemia
+|   |   |--- MCV >  80.25
+|   |   |   |--- MCH <= 26.90
+|   |   |   |   |--- class: Normocytic hypochromic anemia
+|   |   |   |--- MCH >  26.90
+|   |   |   |   |--- MCV <= 100.50
+|   |   |   |   |   |--- class: Normocytic normochromic anemia
+|   |   |   |   |--- MCV >  100.50
+|   |   |   |   |   |--- class: Macrocytic anemia
+|--- HGB >  12.95
+|   |--- PLT <= 149.50
+|   |   |--- WBC <= 10.05
+|   |   |   |--- MCV <= 76.50
+|   |   |   |   |--- class: Other microcytic anemia
+|   |   |   |--- MCV >  76.50
+|   |   |   |   |--- class: Thrombocytopenia
+|   |   |--- WBC >  10.05
+|   |   |   |--- WBC <= 12.75
+|   |   |   |   |--- RBC <= 4.59
+|   |   |   |   |   |--- class: Normocytic normochromic anemia
+|   |   |   |   |--- RBC >  4.59
+|   |   |   |   |   |--- class: Leukemia with thrombocytopenia
+|   |   |   |--- WBC >  12.75
+|   |   |   |   |--- class: Other microcytic anemia
+|   |--- PLT >  149.50
+|   |   |--- WBC <= 10.05
+|   |   |   |--- MCH <= 18.25
+|   |   |   |   |--- class: Iron deficiency anemia
+|   |   |   |--- MCH >  18.25
+|   |   |   |   |--- class: Healthy
+|   |   |--- WBC >  10.05
+|   |   |   |--- class: Leukemia

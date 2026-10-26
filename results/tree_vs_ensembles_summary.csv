@@ -1,0 +1,4 @@
+model,accuracy_mean,f1_macro_mean,accuracy_sd,f1_macro_sd
+Tree_depth5,98.47,94.61,0.72,3.62
+RandomForest,98.38,94.84,0.81,3.62
+XGBoost,98.41,95.0,0.72,3.72
